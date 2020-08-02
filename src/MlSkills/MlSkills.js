@@ -3,16 +3,10 @@ import './MlSkills.css';
 import StyledCard from '../StyledCard/StyledCard';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Card from '../Card/Card';
-import posed from 'react-pose';
 import { FaPython } from "react-icons/fa";
 import {DiMysql, DiMongodb} from 'react-icons/di';
 import {AiOutlineConsoleSql} from "react-icons/ai"
 
-
-const InDiv = posed.div({
-    enter: { x: 0 },
-    exit:{x:500}
-});
 
 const MlSkills = () =>{
     return(

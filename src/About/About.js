@@ -7,7 +7,6 @@ import {Link} from 'react-router-dom';
 import posed from 'react-pose';
 import { RiCodeSSlashLine } from "react-icons/ri";
 import { FaBrain } from "react-icons/fa";
-import {BsChevronCompactRight} from "react-icons/bs"
 
 const P = posed.p({
     enter: { x: 0, opacity: 1 },

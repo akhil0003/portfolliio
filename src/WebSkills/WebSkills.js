@@ -3,14 +3,9 @@ import './WebSkills.css';
 import StyledCard from '../StyledCard/StyledCard';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Card from '../Card/Card';
-import posed from 'react-pose';
 import { GrHtml5, GrCss3, GrJs, GrReactjs, GrNode } from "react-icons/gr";
 import {RiAngularjsLine} from "react-icons/ri";
 
-const InDiv = posed.div({
-    enter: { x: 0 },
-    exit:{x:500}
-});
 
 const WebSkills = () =>{
     return(
